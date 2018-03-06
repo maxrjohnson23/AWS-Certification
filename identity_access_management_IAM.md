@@ -11,8 +11,8 @@
 * Integration with many other AWS services
 
 ## Critical Terms 
-Users - End user/person
-Groups - A collection of users under one set of permissions
-Roles - Create roles that can be assigned to AWS resources
-Policies - A document that defines one or more permissions, attach to users, groups, or roles
+* Users - End user/person
+* Groups - A collection of users under one set of permissions
+* Roles - Create roles that can be assigned to AWS resources
+* Policies - A document that defines one or more permissions, attach to users, groups, or roles
 
