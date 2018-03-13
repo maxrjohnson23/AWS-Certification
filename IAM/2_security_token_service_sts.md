@@ -11,7 +11,7 @@
 * Cross Account Access
   * Lets users from one AWS account access resources in another
   
-### Key Terms
+## Key Terms
 **Federation**: Combining or joining a list of users in one domain (such as IAM) with a list of
 users in another domain (such as Active Directory, Facebook, etc.)
 
@@ -22,7 +22,7 @@ and join it (federate it) to point B
 
 **Identities**: A user of a service like Facebook, etc.
 
-### Key Points
+## Scenarios
 **Scenario 1 - Credential Based**
 1. Develop an identity broker to communicate with LDAP and AWS STS
 
