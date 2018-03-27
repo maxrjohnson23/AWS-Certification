@@ -4,6 +4,8 @@
 
 * Amazon EBS volumes are placed in a specific Availability Zone, where they are automatically replicated to protect you from the failure of a single component
 
+* Cannot mount 1 EBS volume to multiple EC2 instances, instead use EFS
+
 ## Volume Types
 
 * General Purpose SSD (GP2)
@@ -29,3 +31,4 @@
 * Magnetic (Standard)
   * Lowest cost per gigabyte of all EBS volume types that is bootable
   * Magnetic volumes are ideal for workloads where data is accessed infrequently and applications where the lowest storage cost is important
+
